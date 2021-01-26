@@ -1,0 +1,320 @@
+[
+  {
+    "lang": "C",
+    "class": "c",
+    "desc": "C是一种通用的编程语言，广泛用于系统软件与应用软件的开发。",
+    "code": "c"
+  },
+  {
+    "lang": "C++",
+    "class": "cpp",
+    "desc": "C++是一种被广泛使用的计算机程序设计语言。",
+    "code": "cpp"
+  },
+  {
+    "lang": "Java",
+    "class": "java",
+    "desc": "Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。",
+    "code": "java"
+  },
+  {
+    "lang": "C#",
+    "class": "csharp",
+    "desc": "C#是微软推出的一种基于.NET框架的、面向对象的高级编程语言。",
+    "code": "cs"
+  },
+  {
+    "lang": "Python",
+    "class": "python",
+    "desc": "Python（英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/）是一种广泛使用的解释型、高级编程、通用型编程语言。",
+    "code": "py"
+  },
+  {
+    "lang": "TypeScript",
+    "class": "typescript",
+    "desc": "TypeScript是一种开源的编程语言，该语言项目由微软进行维护和管理。",
+    "code": "ts"
+  },
+  {
+    "lang": "PHP",
+    "class": "php",
+    "desc": "PHP（全称：PHP：Hypertext Preprocessor，即“PHP：超文本预处理器”）是一种开源的通用计算机脚本语言，尤其适用于网络开发并可嵌入HTML中使用。",
+    "code": "php"
+  },
+  {
+    "lang": "JavaScript",
+    "class": "javascript",
+    "desc": "JavaScript（通常缩写为JS）是一种高级的、解释型的编程语言。",
+    "code": "js"
+  },
+  {
+    "lang": "Visual Basic",
+    "class": "vbnet",
+    "desc": "Visual Basic（VB）是由微软公司开发的包含环境的事件驱动编程语言。",
+    "code": "vb"
+  },
+  {
+    "lang": "Perl",
+    "class": "perl",
+    "desc": "Perl是高端、通用、解释型、动态的编程语言家族。",
+    "code": "pl"
+  },
+  {
+    "lang": "Ruby",
+    "class": "ruby",
+    "desc": "Ruby 是一种面向对象、命令式、函数式、动态的通用编程语言。",
+    "code": "rb"
+  },
+  {
+    "lang": "CoffeeScript",
+    "class": "coffeescript",
+    "desc": "CoffeeScript是一套JavaScript的转译语言。",
+    "code": "coffee"
+  },
+  {
+    "lang": "CSS",
+    "class": "css",
+    "desc": "层叠样式表（英语：Cascading Style Sheets，缩写：CSS；又称串样式列表、级联样式表、串接样式表、阶层式样式表）是一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护。",
+    "code": "css"
+  },
+  {
+    "lang": "R",
+    "class": "r",
+    "desc": "R语言，一种自由软件编程语言与操作环境，主要用于统计分析、绘图、数据挖掘。",
+    "code": "r"
+  },
+  {
+    "lang": "Delphi",
+    "class": "pascal",
+    "desc": "Delphi，是Windows平台下Object Pascal语言集成开发环境，支持应用程序快速开发（Rapid Application Development，简称RAD）。",
+    "code": "pas"
+  },
+  {
+    "lang": "Swift",
+    "class": "swift",
+    "desc": "Swift编程语言，支持多编程范式和编译式，用来撰写基于macOS/OS X、iOS、iPadOS、watchOS和tvOS的软件。",
+    "code": "swift"
+  },
+  {
+    "lang": "MATLAB",
+    "class": "matlab",
+    "desc": "MATLAB（Matrix Laboratory，矩阵实验室）是由美国The MathWorks公司出品的商业数学软件。",
+    "code": "m"
+  },
+  {
+    "lang": "Go",
+    "class": "go",
+    "desc": "Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。",
+    "code": "go"
+  },
+  {
+    "lang": "Objective-C",
+    "class": "objectivec",
+    "desc": "Objective-C是一种通用、高级、面向对象的编程语言。",
+    "code": "oc.m"
+  },
+  {
+    "lang": "SQL",
+    "class": "sql",
+    "desc": "SQL（/ˈɛs kjuː ˈɛl/或/ˈsiːkwəl/，Structured Query Language:结构化查询语言）是一种特定目的编程语言，用于管理关系数据库管理系统（RDBMS），或在关系流数据管理系统（RDSMS）中进行流处理。",
+    "code": "sql"
+  },
+  {
+    "lang": "HTML",
+    "class": "html",
+    "desc": "超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。",
+    "code": "html"
+  },
+  {
+    "lang": "Dart",
+    "class": "dart",
+    "desc": "Dart（[KK] 英语发音：/dɑrt/, [DJ] 英语发音：/dɑ:t/）是一种适用于万维网的开放源代码编程语言，由Google主导开发，于2011年10月公开。",
+    "code": "dart"
+  },
+  {
+    "lang": "D",
+    "class": "d",
+    "desc": "D语言是一种编程语言，具备多范型，例如面向对象、指令式。",
+    "code": "d"
+  },
+  {
+    "lang": "Ada",
+    "class": "ada",
+    "desc": "Ada，是一种程序设计语言。",
+    "code": "ada"
+  },
+  {
+    "lang": "Erlang",
+    "class": "erlang",
+    "desc": "Erlang（/ˈɜːrlæŋ/）是一种通用的并发程序设计语言，它由乔·阿姆斯特朗（Joe Armstrong）在瑞典电信设备制造商爱立信所辖的计算机科学研究室开发，目的是创造一种可以应付大规模并发活动的程序设计语言和运行环境。",
+    "code": "erl"
+  },
+  {
+    "lang": "Lisp",
+    "class": "lisp",
+    "desc": "Lisp（历史上拼写为LISP）是具有悠久历史的计算机编程语言家族，有独特和完全括号的前缀符号表示法。",
+    "code": "lisp"
+  },
+  {
+    "lang": "Lua",
+    "class": "lua",
+    "desc": "Lua（发音： /ˈluːə/，葡萄牙语含义是月亮）是一个简洁、轻量、可扩展的脚本语言。",
+    "code": "lua"
+  },
+  {
+    "lang": "F#",
+    "class": "fsharp",
+    "desc": "F#是由微软发展的为.NET语言提供运行环境的程序设计语言，是函数编程语言（FP，Functional Programming），函数编程语言最重要的基础是Lambda Calculus。",
+    "code": "fs"
+  },
+  {
+    "lang": "Verilog",
+    "class": "verilog",
+    "desc": "Verilog是一种用于描述、设计电子系统（特别是数字电路）的硬件描述语言，主要用于在集成电路设计，特别是超大规模集成电路的计算机辅助设计。",
+    "code": "v"
+  },
+  {
+    "lang": "PowerShell",
+    "class": "powershell",
+    "desc": "PowerShell（包括Windows PowerShell和PowerShell Core）是微软公司开发的任务自动化和配置管理框架，由.NET Framework和.NET Core是构建的命令行界面壳层相关脚本语言组成，最初仅仅是Windows组件，后于2016年8月18日开源并跨平台支持。",
+    "code": "ps1"
+  },
+  {
+    "lang": "ActionScript",
+    "class": "actionscript",
+    "desc": "ActionScript是原Macromedia公司（后并入Adobe）为其Flash产品开发的一种基于ECMAScript的面向对象编程语言。",
+    "code": "as"
+  },
+  {
+    "lang": "Groovy",
+    "class": "groovy",
+    "desc": "Apache的Groovy是Java平台上设计的面向对象编程语言。",
+    "code": "groovy"
+  },
+  {
+    "lang": "Julia",
+    "class": "julia",
+    "desc": "Julia是一种高级通用动态编程语言，它最初是为了满足高性能数值分析和计算科学的需要而设计的，不需要解释器，速度快，也可用于客户端和服务器的Web用途、低级系统编程或用作规约语言。",
+    "code": "jl"
+  },
+  {
+    "lang": "AppleScript",
+    "class": "applescript",
+    "desc": "AppleScript是苹果公司开发的一种脚本语言，可以用来控制运行于Mac OS上的程序，也可以写成独立运行的Applet。",
+    "code": "scpt"
+  },
+  {
+    "lang": "Bash",
+    "class": "bash",
+    "desc": "Bash，Unix shell的一种，在1987年由布莱恩·福克斯为了GNU计划而编写。",
+    "code": "sh"
+  },
+  {
+    "lang": "Assembly Language",
+    "class": "avrasm",
+    "desc": "汇编语言（英语：assembly language）是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言。",
+    "code": "s"
+  },
+  {
+    "lang": "Tcl",
+    "class": "tcl",
+    "desc": "Tcl（发音tickle）是一种脚本语言。",
+    "code": "tcl"
+  },
+  {
+    "lang": "TeX",
+    "class": "latex",
+    "desc": "TeX（/tɛx/，常被读作/tɛk/，音译“泰赫”，“泰克”，写作“TeX”），是一个由美国计算机教授高德纳（Donald Ervin Knuth）编写的排版软件。",
+    "code": "tex"
+  },
+  {
+    "lang": "Batch",
+    "class": "cmd",
+    "desc": "批处理文件（英语：Batch file），又称批次档，在DOS、OS/2、微软视窗系统中，是一种用来当成脚本语言运作程序的文件。",
+    "code": "cmd"
+  },
+  {
+    "lang": "Makefile",
+    "class": "makefile",
+    "desc": "在软件开发中，make是一个工具程序（Utility software），经由读取叫做“makefile”的文件，自动化建构软件。",
+    "code": "mk"
+  },
+  {
+    "lang": "SAS",
+    "class": "sas",
+    "desc": "SAS语言是一种用于统计分析的编程语言，源自于北卡罗来纳州立大学的一个计划。",
+    "code": "sas"
+  },
+  {
+    "lang": "Scala",
+    "class": "scala",
+    "desc": "Scala（发音为/ˈskɑːlə, ˈskeɪlə/）是一门多范式的编程语言，设计初衷是要集成面向对象编程和函数式编程的各种特性。",
+    "code": "scala"
+  },
+  {
+    "lang": "AWK",
+    "class": "awk",
+    "desc": "AWK是一种优良的文本处理工具，Linux及Unix环境中现有的功能最强大的数据处理引擎之一。",
+    "code": "awk"
+  },
+  {
+    "lang": "Excel Macro",
+    "class": "excel",
+    "desc": "Microsoft Excel是Microsoft为使用Windows和Apple Macintosh操作系统的电脑编写的一款电子表格软件。",
+    "code": "xls"
+  },
+  {
+    "lang": "Clojure",
+    "class": "clojure",
+    "desc": "Clojure（/ˈkloʊʒər/）是Lisp编程语言在Java平台上的现代、动态及函数式方言。",
+    "code": "clj"
+  },
+  {
+    "lang": "Prolog",
+    "class": "prolog",
+    "desc": "Prolog（Programming in Logic的缩写）是一种逻辑编程语言。",
+    "code": "pro"
+  },
+  {
+    "lang": "Vala",
+    "class": "vala",
+    "desc": "Vala是一门面向对象的编程语言，由自举编译器产生C语言代码和使用GObject系统，允许在Gnome运行时库的基础上使用一些现代的编程技巧。",
+    "code": "vala"
+  },
+  {
+    "lang": "Vim Script",
+    "class": "vim",
+    "desc": "Vim是从vi发展出来的一个文本编辑器。",
+    "code": "vim"
+  },
+  {
+    "lang": "AutoIt",
+    "class": "autoit",
+    "desc": "AutoIt（读音aw-tow-it）是一个用于Microsoft Windows的免费自动化语言。",
+    "code": "autoit"
+  },
+  {
+    "lang": "Elixir",
+    "class": "elixir",
+    "desc": "Elixir是一个基于Erlang虚拟机的函数式、面向并行的通用编程语言。",
+    "code": "ex"
+  },
+  {
+    "lang": "Fortran",
+    "class": "fortran",
+    "desc": "Fortran，音译为福传，源自于“公式翻译”（英语：Formula Translation）的缩写，是一种编程语言。",
+    "code": "fortran"
+  },
+  {
+    "lang": "Haskell",
+    "class": "haskell",
+    "desc": "Haskell（发音为/ˈhæskəl/）是一种标准化的，通用的纯函数式编程语言，有惰性求值和强静态类型。",
+    "code": "hs"
+  },
+  {
+    "lang": "Haxe",
+    "class": "haxe",
+    "desc": "Haxe (读音为英语的 hex，音标形式为 /heks/) 是一种多用途的开源高级编程语言，在其官方网站上称其为 \"universal language\"。",
+    "code": "hx"
+  }
+]
