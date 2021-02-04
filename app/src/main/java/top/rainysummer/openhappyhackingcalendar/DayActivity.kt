@@ -8,6 +8,7 @@ import android.view.MotionEvent
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.xhinliang.lunarcalendar.LunarCalendar
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.*
@@ -50,14 +51,37 @@ class DayActivity : AppCompatActivity() {
         today = Date()
         cc.time = today
         cc.add(Calendar.DATE, -1 * weekday)
+
+        val monthNum = cc.get(Calendar.MONTH)
+        val yearNum = cc.get(Calendar.YEAR)
+
         for (i in 0..6) {
+            val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, i + 1)
+
             val id: Int =
                 resources.getIdentifier("weekdayText$i", "id", packageName)
             val weekdayText1 = findViewById<TextView>(id)
-            val month1 = (cc.get(Calendar.MONTH) + 1).toString()
+            val month1 = (monthNum + 1).toString()
             val date1 = cc.get(Calendar.DATE).toString()
-            weekdayText1.text = month1 + "/" + date1
+            weekdayText1.text = month1 + "-" + date1
+            weekdayText1.width = 130
+
             cc.add(Calendar.DATE, 1)
+
+            val idChn: Int =
+                resources.getIdentifier("weekdayTextLunar$i", "id", packageName)
+            val chnWeekday = findViewById<TextView>(idChn)
+            val festivals = lunarCalender.festivals
+            var festivalStr = ""
+            for (festival in festivals.set) {
+                festivalStr += festival
+            }
+            if (festivalStr != "") {
+                chnWeekday.text = festivalStr
+            } else {
+                chnWeekday.text = lunarCalender.lunarDay
+            }
+            chnWeekday.width = 130
         }
 
         val jsonfile: String =
@@ -84,7 +108,7 @@ class DayActivity : AppCompatActivity() {
         val detector = GestureDetector(this, object : GestureDetector.SimpleOnGestureListener() {
             override fun onDoubleTap(e: MotionEvent): Boolean {
                 val intent = Intent()
-                intent.setClass(this@DayActivity, MainActivity::class.java)
+                intent.setClass(this@DayActivity, MonthActivity::class.java)
                 startActivity(intent)
                 this@DayActivity.finish()
                 return true
