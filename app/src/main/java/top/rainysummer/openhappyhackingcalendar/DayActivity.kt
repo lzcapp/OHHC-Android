@@ -78,6 +78,7 @@ class DayActivity : AppCompatActivity() {
             }
             if (festivalStr != "") {
                 chnWeekday.text = festivalStr
+                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_red_dark, theme))
             } else {
                 chnWeekday.text = lunarCalender.lunarDay
             }
