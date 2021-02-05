@@ -1,4 +1,8 @@
 # top.rainysummer.OpenHappyHackingCalendar
+
+## Google Play
+
+https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar
  
 ## Notice
 
