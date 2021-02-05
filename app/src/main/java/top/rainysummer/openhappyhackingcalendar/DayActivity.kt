@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.widget.LinearLayout
+import android.widget.TableLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.xhinliang.lunarcalendar.LunarCalendar
@@ -30,13 +31,13 @@ class DayActivity : AppCompatActivity() {
         dateText.text = year + "-" + month + "-" + date
 
         val weekdayName = arrayOf(
-            "Sunday",
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
         )
         //c.firstDayOfWeek = Calendar.MONDAY;
         var weekday = c.get(Calendar.DAY_OF_WEEK)
