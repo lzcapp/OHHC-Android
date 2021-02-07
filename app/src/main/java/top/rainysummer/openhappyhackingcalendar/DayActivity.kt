@@ -31,13 +31,13 @@ class DayActivity : AppCompatActivity() {
         dateText.text = year + "-" + month + "-" + date
 
         val weekdayName = arrayOf(
-                "Sunday",
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday"
+                "Sunday · 周日",
+                "Monday · 周一",
+                "Tuesday · 周二",
+                "Wednesday · 周三",
+                "Thursday · 周四",
+                "Friday · 周五",
+                "Saturday · 周六"
         )
         //c.firstDayOfWeek = Calendar.MONDAY;
         var weekday = c.get(Calendar.DAY_OF_WEEK)
