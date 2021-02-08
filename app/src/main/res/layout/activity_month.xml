@@ -29,7 +29,7 @@
             android:fontFamily="@font/space_mono"
             android:gravity="center|center_horizontal|center_vertical"
             android:textColor="@color/black"
-            android:textSize="36sp"
+            android:textSize="34sp"
             android:textStyle="normal" />
 
         <TableLayout
