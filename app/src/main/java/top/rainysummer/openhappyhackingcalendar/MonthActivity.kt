@@ -2,7 +2,6 @@ package top.rainysummer.openhappyhackingcalendar
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.content.res.ColorStateList
 import android.graphics.Typeface
 import android.os.Build
 import android.os.Bundle
@@ -31,17 +30,33 @@ class MonthActivity : AppCompatActivity() {
 
         val calendar: Calendar = Calendar.getInstance()
 
+        val dateNum = calendar.get(Calendar.DATE)
         val yearNum = calendar.get(Calendar.YEAR)
         val monthNum = calendar.get(Calendar.MONTH)
 
         val monthName = arrayOf(
-            "January", "February", "March", "April", "May", "June", "July",
-            "August", "September", "October", "November",
-            "December"
+            "January 一月", "February 二月", "March 三月", "April 四月", "May 五月", "June 六月", "July 七月",
+            "August 八月", "September 九月", "October 十月", "November 十一月",
+            "December 十二月"
         )
         val month = monthName[monthNum]
-        val textView = findViewById<TextView>(R.id.textMonth)
-        textView.text = month
+        val textMonth = findViewById<TextView>(R.id.textMonth)
+        textMonth.text = month
+
+        val lunar = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum)
+        val td_num : Int
+        if (lunar.lunarMonth == "腊") {
+            td_num = yearNum - 4
+        } else {
+            td_num = yearNum - 3
+        }
+        val tian = arrayOf("癸", "甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬")
+        val di = arrayOf("亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌")
+        val LunarYear = tian[td_num % 10] + di[td_num % 12] + "年"
+
+        val textYear = findViewById<TextView>(R.id.textYear)
+        textYear.text = yearNum.toString() + "  ·  " + LunarYear
+
 
         val startOfMonth = Calendar.getInstance()
         startOfMonth.set(yearNum, monthNum, 1)

@@ -16,8 +16,8 @@ android {
         applicationId 'top.rainysummer.openhappyhackingcalendar'
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 12
-        versionName "3.7"
+        versionCode 13
+        versionName "3.8"
         // multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.sign
