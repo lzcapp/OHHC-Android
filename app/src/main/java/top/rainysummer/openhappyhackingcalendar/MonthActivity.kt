@@ -55,7 +55,7 @@ class MonthActivity : AppCompatActivity() {
         val LunarYear = tian[td_num % 10] + di[td_num % 12] + "年"
 
         val textYear = findViewById<TextView>(R.id.textYear)
-        textYear.text = yearNum.toString() + "  ·  " + LunarYear
+        textYear.text = yearNum.toString() + " · " + LunarYear
 
 
         val startOfMonth = Calendar.getInstance()
