@@ -44,7 +44,7 @@ class MonthActivity : AppCompatActivity() {
         textMonth.text = month
 
         val lunar = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum)
-        val td_num : Int
+        val td_num: Int
         if (lunar.lunarMonth == "腊") {
             td_num = yearNum - 4
         } else {
@@ -84,7 +84,8 @@ class MonthActivity : AppCompatActivity() {
             val chnweekid: Int =
                 resources.getIdentifier("chnweek$it", "id", packageName)
             val chnweekrow = findViewById<TableRow>(chnweekid)
-            val lpchnweek: LinearLayout.LayoutParams = chnweekrow.layoutParams as TableLayout.LayoutParams
+            val lpchnweek: LinearLayout.LayoutParams =
+                chnweekrow.layoutParams as TableLayout.LayoutParams
             lpchnweek.topMargin = 0
             chnweekrow.layoutParams = lpchnweek
             chnweekrow.visibility = View.VISIBLE;
@@ -119,17 +120,15 @@ class MonthActivity : AppCompatActivity() {
             val wkToday = today % 7
             val itToday = today / 7
             val idDayToday: Int =
-                    resources.getIdentifier("day$itToday$wkToday", "id", packageName)
+                resources.getIdentifier("day$itToday$wkToday", "id", packageName)
             val idChnToday: Int =
-                    resources.getIdentifier("chn$itToday$wkToday", "id", packageName)
+                resources.getIdentifier("chn$itToday$wkToday", "id", packageName)
             val cellDayToday = findViewById<TextView>(idDayToday)
             val cellChnToday = findViewById<TextView>(idChnToday)
             cellDayToday.setTypeface(cellDayToday.typeface, Typeface.BOLD);
             cellChnToday.setTypeface(cellChnToday.typeface, Typeface.BOLD);
-            //cellDayToday.setBackgroundColor(resources.getColor(android.R.color.darker_gray, theme))
-            //cellChnToday.setBackgroundColor(resources.getColor(android.R.color.darker_gray, theme))
-            cellDayToday.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))
-            cellChnToday.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))
+            cellDayToday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
+            cellChnToday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
         }
 
         val detector = GestureDetector(this, object : SimpleOnGestureListener() {

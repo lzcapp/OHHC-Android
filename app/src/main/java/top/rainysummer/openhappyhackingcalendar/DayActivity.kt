@@ -2,16 +2,18 @@ package top.rainysummer.openhappyhackingcalendar
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.widget.LinearLayout
-import android.widget.TableLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.xhinliang.lunarcalendar.LunarCalendar
 import org.json.JSONArray
 import org.json.JSONObject
+import thereisnospon.codeview.CodeView
+import thereisnospon.codeview.CodeViewTheme
 import java.util.*
 
 
@@ -31,13 +33,13 @@ class DayActivity : AppCompatActivity() {
         dateText.text = year + "-" + month + "-" + date
 
         val weekdayName = arrayOf(
-                "Sunday · 周日",
-                "Monday · 周一",
-                "Tuesday · 周二",
-                "Wednesday · 周三",
-                "Thursday · 周四",
-                "Friday · 周五",
-                "Saturday · 周六"
+            "Sunday · 周日",
+            "Monday · 周一",
+            "Tuesday · 周二",
+            "Wednesday · 周三",
+            "Thursday · 周四",
+            "Friday · 周五",
+            "Saturday · 周六"
         )
         //c.firstDayOfWeek = Calendar.MONDAY;
         var weekday = c.get(Calendar.DAY_OF_WEEK)
@@ -53,11 +55,12 @@ class DayActivity : AppCompatActivity() {
         cc.time = today
         cc.add(Calendar.DATE, -1 * weekday)
 
+        val dateNum = cc.get(Calendar.DATE)
         val monthNum = cc.get(Calendar.MONTH)
         val yearNum = cc.get(Calendar.YEAR)
 
         for (i in 0..6) {
-            val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, i + 1)
+            val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum + i)
 
             val id: Int =
                 resources.getIdentifier("weekdayText$i", "id", packageName)
@@ -101,8 +104,20 @@ class DayActivity : AppCompatActivity() {
         val langCode: String =
             applicationContext.assets.open("HackingDate.$langExt").bufferedReader()
                 .use { it.readText() }
-        val langCodeText = findViewById<TextView>(R.id.langCode)
-        langCodeText.text = langCode
+        val langCodeText = findViewById<CodeView>(R.id.langCode)
+        val currentNightMode = (resources.configuration.uiMode
+                and Configuration.UI_MODE_NIGHT_MASK)
+        when (currentNightMode) {
+            Configuration.UI_MODE_NIGHT_NO -> {
+                langCodeText.setTheme(CodeViewTheme.QTCREATOR_LIGHT).fillColor()
+            } // Night mode is not active, we're using the light theme
+            Configuration.UI_MODE_NIGHT_YES -> {
+                langCodeText.setTheme(CodeViewTheme.HYBRID).fillColor()
+                // langCodeText.setBackgroundColor(Color.rgb(2, 2, 2))
+            } // Night mode is active, we're using dark theme
+        }
+        langCodeText.showCode(langCode)
+        //langCodeText.fillColor()
 
         val langDesc = findViewById<TextView>(R.id.langWiki)
         langDesc.text = langJson.getString("desc")

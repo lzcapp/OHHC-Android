@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal|center_vertical"
-    android:background="@android:color/white"
     android:visibility="visible"
     tools:context=".MonthActivity">
 
@@ -13,7 +12,6 @@
         android:id="@+id/layout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +26,7 @@
             android:layout_marginTop="10dp"
             android:fontFamily="@font/space_mono"
             android:gravity="center|center_horizontal|center_vertical"
-            android:textColor="@color/black"
+
             android:textSize="24sp"
             android:textStyle="normal" />
 
@@ -39,7 +37,7 @@
             android:layout_gravity="center|center_horizontal"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/space_mono"
-            android:textColor="@color/black"
+
             android:textSize="16sp" />
 
         <TableLayout
@@ -64,7 +62,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Mon"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -74,7 +72,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Tue"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -84,7 +82,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Wed"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -94,7 +92,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Thu"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -104,7 +102,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Fri"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -145,7 +143,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -158,7 +156,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -171,7 +169,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -184,7 +182,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -197,7 +195,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -243,7 +241,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -254,7 +252,7 @@
                     android:layout_marginRight="5dp"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -266,7 +264,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -278,7 +276,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -290,7 +288,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -335,7 +333,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -347,7 +345,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -359,7 +357,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -371,7 +369,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -383,7 +381,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -428,7 +426,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -440,7 +438,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -452,7 +450,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -464,7 +462,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -476,7 +474,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -521,7 +519,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -533,7 +531,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -545,7 +543,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -557,7 +555,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -569,7 +567,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -614,7 +612,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -626,7 +624,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -638,7 +636,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -650,7 +648,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -662,7 +660,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -707,7 +705,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -719,7 +717,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -731,7 +729,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -743,7 +741,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -755,7 +753,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -800,7 +798,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -812,7 +810,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -824,7 +822,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -836,7 +834,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -848,7 +846,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -894,7 +892,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -907,7 +905,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -920,7 +918,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -933,7 +931,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -946,7 +944,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -994,7 +992,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1007,7 +1005,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1020,7 +1018,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1033,7 +1031,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1046,7 +1044,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1094,7 +1092,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -1107,7 +1105,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -1120,7 +1118,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -1133,7 +1131,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -1146,7 +1144,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="20sp" />
 
                 <TextView
@@ -1194,7 +1192,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1207,7 +1205,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1220,7 +1218,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1233,7 +1231,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
@@ -1246,7 +1244,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@color/black"
+
                     android:textSize="14sp" />
 
                 <TextView
