@@ -40,7 +40,7 @@
             android:fontFamily="@font/space_mono"
             android:gravity="right"
             android:text="TextView"
-            android:textColor="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_red_light"
             android:textSize="24sp" />
 
         <TextView
@@ -61,10 +61,10 @@
             android:layout_width="wrap_content"
             android:layout_height="160dp"
             android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp" />
+            android:layout_marginRight="10dp" />
 
         <TextView
             android:id="@+id/langWiki"
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:gravity="center|center_horizontal|fill_horizontal">
@@ -203,7 +203,7 @@
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
                     android:text="Sat"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="16sp"
                     android:textStyle="normal" />
 
@@ -221,7 +221,7 @@
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
                     android:text="Sun"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="16sp"
                     android:textStyle="normal" />
             </TableRow>
@@ -333,7 +333,7 @@
                     android:includeFontPadding="true"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="12sp" />
 
                 <TextView
@@ -349,7 +349,7 @@
                     android:includeFontPadding="true"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="12sp" />
             </TableRow>
 
@@ -477,7 +477,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:singleLine="false"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="12sp" />
 
                 <TextView
@@ -497,7 +497,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:singleLine="false"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="12sp" />
             </TableRow>
         </TableLayout>

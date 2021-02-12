@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/space_mono"
 
             android:textSize="16sp" />
@@ -112,7 +112,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Sat"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -120,7 +120,7 @@
                     android:gravity="center"
                     android:padding="3dip"
                     android:text="Sun"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -208,7 +208,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -219,7 +219,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -300,7 +300,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
 
                 <TextView
@@ -310,7 +310,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -393,7 +393,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -403,7 +403,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -486,7 +486,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
 
                 <TextView
@@ -496,7 +496,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -579,7 +579,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -589,7 +589,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -672,7 +672,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
 
                 <TextView
@@ -682,7 +682,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -765,7 +765,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -775,7 +775,7 @@
                     android:fontFamily="@font/space_mono"
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -858,7 +858,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
 
                 <TextView
@@ -868,7 +868,7 @@
 
                     android:gravity="center"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -957,7 +957,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -968,7 +968,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -1057,7 +1057,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
 
                 <TextView
@@ -1068,7 +1068,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
             </TableRow>
 
@@ -1157,7 +1157,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
 
                 <TextView
@@ -1168,7 +1168,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -1257,7 +1257,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
 
                 <TextView
@@ -1268,7 +1268,7 @@
                     android:gravity="center"
                     android:minHeight="0dp"
                     android:padding="3dip"
-                    android:textColor="@android:color/holo_red_dark"
+                    android:textColor="@android:color/holo_red_light"
                     android:textSize="14sp" />
             </TableRow>
         </TableLayout>

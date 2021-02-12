@@ -5,10 +5,8 @@ import android.content.Intent
 import android.graphics.Typeface
 import android.os.Build
 import android.os.Bundle
-import android.view.GestureDetector
+import android.view.*
 import android.view.GestureDetector.SimpleOnGestureListener
-import android.view.MotionEvent
-import android.view.View
 import android.view.View.OnTouchListener
 import android.widget.LinearLayout
 import android.widget.TableLayout
@@ -25,7 +23,7 @@ class MonthActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_month)
 
         val calendar: Calendar = Calendar.getInstance()
@@ -35,9 +33,9 @@ class MonthActivity : AppCompatActivity() {
         val monthNum = calendar.get(Calendar.MONTH)
 
         val monthName = arrayOf(
-            "January 一月", "February 二月", "March 三月", "April 四月", "May 五月", "June 六月", "July 七月",
-            "August 八月", "September 九月", "October 十月", "November 十一月",
-            "December 十二月"
+                "January 一月", "February 二月", "March 三月", "April 四月", "May 五月", "June 六月", "July 七月",
+                "August 八月", "September 九月", "October 十月", "November 十一月",
+                "December 十二月"
         )
         val month = monthName[monthNum]
         val textMonth = findViewById<TextView>(R.id.textMonth)
@@ -74,7 +72,7 @@ class MonthActivity : AppCompatActivity() {
             val it = index / 7
 
             val weekid: Int =
-                resources.getIdentifier("week$it", "id", packageName)
+                    resources.getIdentifier("week$it", "id", packageName)
             val weekrow = findViewById<TableRow>(weekid)
             val lpweek: LinearLayout.LayoutParams = weekrow.layoutParams as TableLayout.LayoutParams
             lpweek.topMargin = 50
@@ -82,23 +80,23 @@ class MonthActivity : AppCompatActivity() {
             weekrow.visibility = View.VISIBLE
 
             val chnweekid: Int =
-                resources.getIdentifier("chnweek$it", "id", packageName)
+                    resources.getIdentifier("chnweek$it", "id", packageName)
             val chnweekrow = findViewById<TableRow>(chnweekid)
             val lpchnweek: LinearLayout.LayoutParams =
-                chnweekrow.layoutParams as TableLayout.LayoutParams
+                    chnweekrow.layoutParams as TableLayout.LayoutParams
             lpchnweek.topMargin = 0
             chnweekrow.layoutParams = lpchnweek
             chnweekrow.visibility = View.VISIBLE;
 
             val dayid: Int =
-                resources.getIdentifier("day$it$wk", "id", packageName)
+                    resources.getIdentifier("day$it$wk", "id", packageName)
             val daycell = findViewById<TextView>(dayid)
             daycell.text = (i + 1).toString()
             daycell.width = 120
             daycell.setPadding(0, 0, 0, 0)
 
             val chnid: Int =
-                resources.getIdentifier("chn$it$wk", "id", packageName)
+                    resources.getIdentifier("chn$it$wk", "id", packageName)
             val chndaycell = findViewById<TextView>(chnid)
             val festivals = lunarCalender.festivals
             var festivalStr = ""
@@ -107,7 +105,7 @@ class MonthActivity : AppCompatActivity() {
             }
             if (festivalStr != "") {
                 chndaycell.text = festivalStr
-                chndaycell.setTextColor(resources.getColor(android.R.color.holo_red_dark, theme))
+                chndaycell.setTextColor(resources.getColor(android.R.color.holo_red_light, theme))
             } else {
                 chndaycell.text = lunarCalender.lunarDay
             }
@@ -120,9 +118,9 @@ class MonthActivity : AppCompatActivity() {
             val wkToday = today % 7
             val itToday = today / 7
             val idDayToday: Int =
-                resources.getIdentifier("day$itToday$wkToday", "id", packageName)
+                    resources.getIdentifier("day$itToday$wkToday", "id", packageName)
             val idChnToday: Int =
-                resources.getIdentifier("chn$itToday$wkToday", "id", packageName)
+                    resources.getIdentifier("chn$itToday$wkToday", "id", packageName)
             val cellDayToday = findViewById<TextView>(idDayToday)
             val cellChnToday = findViewById<TextView>(idChnToday)
             cellDayToday.setTypeface(cellDayToday.typeface, Typeface.BOLD);

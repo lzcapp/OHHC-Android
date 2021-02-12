@@ -33,13 +33,13 @@ class DayActivity : AppCompatActivity() {
         dateText.text = year + "-" + month + "-" + date
 
         val weekdayName = arrayOf(
-            "Sunday · 周日",
-            "Monday · 周一",
-            "Tuesday · 周二",
-            "Wednesday · 周三",
-            "Thursday · 周四",
-            "Friday · 周五",
-            "Saturday · 周六"
+                "Sunday · 周日",
+                "Monday · 周一",
+                "Tuesday · 周二",
+                "Wednesday · 周三",
+                "Thursday · 周四",
+                "Friday · 周五",
+                "Saturday · 周六"
         )
         //c.firstDayOfWeek = Calendar.MONDAY;
         var weekday = c.get(Calendar.DAY_OF_WEEK)
@@ -63,7 +63,7 @@ class DayActivity : AppCompatActivity() {
             val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum + i)
 
             val id: Int =
-                resources.getIdentifier("weekdayText$i", "id", packageName)
+                    resources.getIdentifier("weekdayText$i", "id", packageName)
             val weekdayText1 = findViewById<TextView>(id)
             val month1 = (monthNum + 1).toString()
             val date1 = cc.get(Calendar.DATE).toString()
@@ -73,7 +73,7 @@ class DayActivity : AppCompatActivity() {
             cc.add(Calendar.DATE, 1)
 
             val idChn: Int =
-                resources.getIdentifier("weekdayTextLunar$i", "id", packageName)
+                    resources.getIdentifier("weekdayTextLunar$i", "id", packageName)
             val chnWeekday = findViewById<TextView>(idChn)
             val festivals = lunarCalender.festivals
             var festivalStr = ""
@@ -82,7 +82,7 @@ class DayActivity : AppCompatActivity() {
             }
             if (festivalStr != "") {
                 chnWeekday.text = festivalStr
-                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_red_dark, theme))
+                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_red_light, theme))
             } else {
                 chnWeekday.text = lunarCalender.lunarDay
             }
@@ -90,7 +90,7 @@ class DayActivity : AppCompatActivity() {
         }
 
         val jsonfile: String =
-            applicationContext.assets.open("wiki.json").bufferedReader().use { it.readText() }
+                applicationContext.assets.open("wiki.json").bufferedReader().use { it.readText() }
         val jsonArray = JSONArray(jsonfile)
 
         val langNum = jsonArray.length() - 1
@@ -102,8 +102,8 @@ class DayActivity : AppCompatActivity() {
 
         val langExt = langJson.getString("code")
         val langCode: String =
-            applicationContext.assets.open("HackingDate.$langExt").bufferedReader()
-                .use { it.readText() }
+                applicationContext.assets.open("HackingDate.$langExt").bufferedReader()
+                        .use { it.readText() }
         val langCodeText = findViewById<CodeView>(R.id.langCode)
         val currentNightMode = (resources.configuration.uiMode
                 and Configuration.UI_MODE_NIGHT_MASK)
@@ -112,7 +112,7 @@ class DayActivity : AppCompatActivity() {
                 langCodeText.setTheme(CodeViewTheme.QTCREATOR_LIGHT).fillColor()
             } // Night mode is not active, we're using the light theme
             Configuration.UI_MODE_NIGHT_YES -> {
-                langCodeText.setTheme(CodeViewTheme.HYBRID).fillColor()
+                langCodeText.setTheme(CodeViewTheme.TOMORROW_NIGHT).fillColor()
                 // langCodeText.setBackgroundColor(Color.rgb(2, 2, 2))
             } // Night mode is active, we're using dark theme
         }
