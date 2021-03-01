@@ -148,6 +148,6 @@ class MonthActivity : AppCompatActivity() {
         })
 
         val layout = findViewById<LinearLayout>(R.id.layout1)
-        layout.setOnTouchListener(OnTouchListener { _, event -> detector.onTouchEvent(event) })
+        layout.setOnTouchListener { _, event -> detector.onTouchEvent(event) }
     }
 }

@@ -372,12 +372,13 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:singleLine="false"
 
+                    android:singleLine="false"
                     android:textSize="12sp" />
 
                 <TextView
@@ -392,12 +393,13 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:singleLine="false"
 
+                    android:singleLine="false"
                     android:textSize="12sp" />
 
                 <TextView
@@ -412,12 +414,13 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:singleLine="false"
 
+                    android:singleLine="false"
                     android:textSize="12sp" />
 
                 <TextView
@@ -432,12 +435,13 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:singleLine="false"
 
+                    android:singleLine="false"
                     android:textSize="12sp" />
 
                 <TextView
@@ -452,12 +456,13 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:singleLine="false"
 
+                    android:singleLine="false"
                     android:textSize="12sp" />
 
                 <TextView
@@ -472,6 +477,7 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
@@ -492,6 +498,7 @@
                     android:background="?android:colorBackground"
                     android:fontFamily="@font/space_mono"
                     android:gravity="center_horizontal|top"
+                    android:maxLines="2"
                     android:minLines="2"
                     android:nestedScrollingEnabled="false"
                     android:paddingTop="5dp"
