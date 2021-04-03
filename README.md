@@ -4,7 +4,9 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/rainysummerluo/Android.OHHC?style=for-the-badge)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;[![Play Store](https://img.shields.io/badge/play%20store-top.rainysummer.openhappyhackingcalendar-orange?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)
+
+[![Play Store](https://img.shields.io/badge/play%20store-top.rainysummer.openhappyhackingcalendar-orange?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar)
 
 https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar
  
