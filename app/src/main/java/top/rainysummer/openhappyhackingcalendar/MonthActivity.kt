@@ -5,9 +5,9 @@ import android.content.Intent
 import android.graphics.Typeface
 import android.os.Build
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.*
 import android.view.GestureDetector.SimpleOnGestureListener
-import android.view.View.OnTouchListener
 import android.widget.LinearLayout
 import android.widget.TableLayout
 import android.widget.TableRow
@@ -111,7 +111,7 @@ class MonthActivity : AppCompatActivity() {
             }
             chndaycell.width = 120
             chndaycell.includeFontPadding = false
-            chndaycell.setLines(3)
+            chndaycell.height = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 60F, this.resources.displayMetrics).toInt()
             chndaycell.setPadding(0, 0, 0, 0)
 
             val today = calendar.get(Calendar.DATE) + weekIndex - 1

@@ -53,38 +53,46 @@ class DayActivity : AppCompatActivity() {
         val cc: Calendar = Calendar.getInstance()
         today = Date()
         cc.time = today
-        cc.add(Calendar.DATE, -1 * weekday)
+        if (weekday > c.get(Calendar.DATE)) {
+            cc.add(Calendar.DATE, -1 * (c.get(Calendar.DATE) - 1))
+        } else {
+            cc.add(Calendar.DATE, -1 * weekday)
+        }
+
 
         val dateNum = cc.get(Calendar.DATE)
         val monthNum = cc.get(Calendar.MONTH)
         val yearNum = cc.get(Calendar.YEAR)
 
         for (i in 0..6) {
-            val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum + i)
-
-            val id: Int =
-                    resources.getIdentifier("weekdayText$i", "id", packageName)
-            val weekdayText1 = findViewById<TextView>(id)
-            val month1 = (monthNum + 1).toString()
-            val date1 = cc.get(Calendar.DATE).toString()
-            weekdayText1.text = month1 + "-" + date1
-            weekdayText1.width = 130
-
-            cc.add(Calendar.DATE, 1)
-
             val idChn: Int =
                     resources.getIdentifier("weekdayTextLunar$i", "id", packageName)
             val chnWeekday = findViewById<TextView>(idChn)
-            val festivals = lunarCalender.festivals
-            var festivalStr = ""
-            for (festival in festivals.set) {
-                festivalStr += festival
-            }
-            if (festivalStr != "") {
-                chnWeekday.text = festivalStr
-                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_red_light, theme))
-            } else {
-                chnWeekday.text = lunarCalender.lunarDay
+
+            if (i > (weekday - c.get(Calendar.DATE))) {
+                val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum + i)
+
+                val id: Int =
+                        resources.getIdentifier("weekdayText$i", "id", packageName)
+                val weekdayText1 = findViewById<TextView>(id)
+                val month1 = (monthNum + 1).toString()
+                val date1 = cc.get(Calendar.DATE).toString()
+                weekdayText1.text = month1 + "-" + date1
+                weekdayText1.width = 130
+
+                cc.add(Calendar.DATE, 1)
+
+                val festivals = lunarCalender.festivals
+                var festivalStr = ""
+                for (festival in festivals.set) {
+                    festivalStr += festival
+                }
+                if (festivalStr != "") {
+                    chnWeekday.text = festivalStr
+                    chnWeekday.setTextColor(resources.getColor(android.R.color.holo_red_light, theme))
+                } else {
+                    chnWeekday.text = lunarCalender.lunarDay
+                }
             }
             chnWeekday.width = 130
         }
