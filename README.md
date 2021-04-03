@@ -1,14 +1,20 @@
 # top.rainysummer.OpenHappyHackingCalendar
 
-## Google Play
-
 ![GitHub top language](https://img.shields.io/github/languages/top/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/rainysummerluo/Android.OHHC?style=for-the-badge)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)
 
+## Google Play
+
 [![Play Store](https://img.shields.io/badge/play%20store-top.rainysummer.openhappyhackingcalendar-orange?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar)
 
 https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar
+
+## Screenshots 截图
+
+<img src="https://i.loli.net/2021/04/04/KOioZQUWLkTwc32.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/x4ab8G1RduqCWEp.jpg" width="49%"/>
+
+<img src="https://i.loli.net/2021/04/04/b4en3f2TE9QUOuF.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/mpjEN3cJsZU8yQl.jpg" width="49%"/>
  
 ## Notice
 
