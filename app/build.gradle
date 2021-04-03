@@ -4,11 +4,6 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        sign {
-            storeFile file('C:\\Users\\RainySummer\\keystore.jks')
-        }
-    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
@@ -16,8 +11,8 @@ android {
         applicationId 'top.rainysummer.openhappyhackingcalendar'
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 212
-        versionName "5.6"
+        versionCode 213
+        versionName "5.7"
         // multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.sign
