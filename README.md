@@ -1,8 +1,6 @@
 # top.rainysummer.OpenHappyHackingCalendar
 
-![GitHub top language](https://img.shields.io/github/languages/top/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/rainysummerluo/Android.OHHC?style=for-the-badge)
-
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)
 
 ## Google Play
 
