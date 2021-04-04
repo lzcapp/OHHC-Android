@@ -2,7 +2,6 @@ package top.rainysummer.openhappyhackingcalendar
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.Typeface
 import android.os.Build
 import android.os.Bundle
 import android.util.TypedValue
@@ -123,8 +122,8 @@ class MonthActivity : AppCompatActivity() {
                     resources.getIdentifier("chn$itToday$wkToday", "id", packageName)
             val cellDayToday = findViewById<TextView>(idDayToday)
             val cellChnToday = findViewById<TextView>(idChnToday)
-            cellDayToday.setTypeface(cellDayToday.typeface, Typeface.BOLD);
-            cellChnToday.setTypeface(cellChnToday.typeface, Typeface.BOLD);
+            //cellDayToday.setTypeface(cellDayToday.typeface, Typeface.BOLD);
+            //cellChnToday.setTypeface(cellChnToday.typeface, Typeface.BOLD);
             cellDayToday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
             cellChnToday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
         }

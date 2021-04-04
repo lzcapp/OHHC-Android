@@ -59,18 +59,22 @@ class DayActivity : AppCompatActivity() {
             cc.add(Calendar.DATE, -1 * weekday)
         }
 
-
-        val dateNum = cc.get(Calendar.DATE)
-        val monthNum = cc.get(Calendar.MONTH)
-        val yearNum = cc.get(Calendar.YEAR)
-
         for (i in 0..6) {
+            val dateNum = cc.get(Calendar.DATE)
+            val monthNum = cc.get(Calendar.MONTH)
+            val yearNum = cc.get(Calendar.YEAR)
+
+            val ccc: Calendar = Calendar.getInstance()
+            today = Date()
+            ccc.time = today
+            val dateToday = c.get(Calendar.DATE)
+
             val idChn: Int =
                     resources.getIdentifier("weekdayTextLunar$i", "id", packageName)
             val chnWeekday = findViewById<TextView>(idChn)
 
             if (i > (weekday - c.get(Calendar.DATE))) {
-                val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum + i)
+                val lunarCalender = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum)
 
                 val id: Int =
                         resources.getIdentifier("weekdayText$i", "id", packageName)
@@ -79,6 +83,9 @@ class DayActivity : AppCompatActivity() {
                 val date1 = cc.get(Calendar.DATE).toString()
                 weekdayText1.text = month1 + "-" + date1
                 weekdayText1.width = 130
+                if (dateNum == dateToday) {
+                    weekdayText1.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
+                }
 
                 cc.add(Calendar.DATE, 1)
 
@@ -93,6 +100,9 @@ class DayActivity : AppCompatActivity() {
                 } else {
                     chnWeekday.text = lunarCalender.lunarDay
                 }
+            }
+            if (dateNum == dateToday) {
+                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
             }
             chnWeekday.width = 130
         }
