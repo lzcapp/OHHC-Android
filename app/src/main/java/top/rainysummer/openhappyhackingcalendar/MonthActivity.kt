@@ -111,7 +111,7 @@ class MonthActivity : AppCompatActivity() {
             }
             chndaycell.width = 120
             chndaycell.includeFontPadding = false
-            chndaycell.height = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 60F, this.resources.displayMetrics).toInt()
+            chndaycell.height = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 55F, this.resources.displayMetrics).toInt()
             chndaycell.setPadding(0, 0, 0, 0)
 
             val today = calendar.get(Calendar.DATE) + weekIndex - 1
