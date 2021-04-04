@@ -10,9 +10,9 @@ https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingca
 
 ## Screenshots 截图
 
-<img src="https://i.loli.net/2021/04/04/KOioZQUWLkTwc32.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/odKNRM9eF4kxJLh.jpg" width="49%"/>
+<img src="https://i.loli.net/2021/04/04/O7QDvBn4b6ryzcE.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/odKNRM9eF4kxJLh.jpg" width="49%"/>
 
-<img src="https://i.loli.net/2021/04/04/b4en3f2TE9QUOuF.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/LbyFDNdAz8qasmt.jpg" width="49%"/>
+<img src="https://i.loli.net/2021/04/04/mrnRvwHU4di2Xae.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/LbyFDNdAz8qasmt.jpg" width="49%"/>
  
 ## Notice
 
