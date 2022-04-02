@@ -1,6 +1,7 @@
 # top.rainysummer.OpenHappyHackingCalendar
 
-![GitHub top language](https://img.shields.io/github/languages/top/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/rainysummerluo/Android.OHHC?style=for-the-badge)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRainySummerLuo%2FAndroid.OHHC.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FRainySummerLuo%2FAndroid.OHHC?ref=badge_shield)
+&nbsp;&nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/rainysummerluo/Android.OHHC?style=for-the-badge)&nbsp;&nbsp;![GitHub release (latest by date)](https://img.shields.io/github/v/release/RainySummerLuo/Android.OHHC?style=for-the-badge)
 
 ## Google Play
 
@@ -25,3 +26,6 @@ https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingca
 2. thereisnospon.codeview:codeview
 
     Thereisnospon/CodeView, No License, https://github.com/Thereisnospon/CodeView
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRainySummerLuo%2FAndroid.OHHC.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FRainySummerLuo%2FAndroid.OHHC?ref=badge_large)
