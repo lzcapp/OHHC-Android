@@ -6,8 +6,6 @@
 
 [![Play Store](https://img.shields.io/badge/play%20store-top.rainysummer.openhappyhackingcalendar-orange?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar)
 
-https://play.google.com/store/apps/details?id=top.rainysummer.openhappyhackingcalendar
-
 ## Screenshots 截图
 
 <img src="https://i.loli.net/2021/04/04/O7QDvBn4b6ryzcE.jpg" width="49%"/> <img src="https://i.loli.net/2021/04/04/odKNRM9eF4kxJLh.jpg" width="49%"/>

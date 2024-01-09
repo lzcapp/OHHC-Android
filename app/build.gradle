@@ -15,7 +15,7 @@ android {
         versionName "5.9"
         // multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        signingConfig signingConfigs.sign
+        // signingConfig signingConfigs.sign
     }
 
     buildTypes {
@@ -38,6 +38,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'top.rainysummer.openhappyhackingcalendar'
 }
 
 dependencies {
