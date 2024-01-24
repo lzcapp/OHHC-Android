@@ -84,7 +84,7 @@ class DayActivity : AppCompatActivity() {
                 weekdayText1.text = month1 + "-" + date1
                 weekdayText1.width = 130
                 if (dateNum == dateToday) {
-                    weekdayText1.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
+                    weekdayText1.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))
                 }
 
                 cc.add(Calendar.DATE, 1)
@@ -102,7 +102,7 @@ class DayActivity : AppCompatActivity() {
                 }
             }
             if (dateNum == dateToday) {
-                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
+                chnWeekday.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))
             }
             chnWeekday.width = 130
         }

@@ -124,8 +124,8 @@ class MonthActivity : AppCompatActivity() {
             val cellChnToday = findViewById<TextView>(idChnToday)
             //cellDayToday.setTypeface(cellDayToday.typeface, Typeface.BOLD);
             //cellChnToday.setTypeface(cellChnToday.typeface, Typeface.BOLD);
-            cellDayToday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
-            cellChnToday.setTextColor(resources.getColor(android.R.color.holo_blue_light, theme))
+            cellDayToday.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))
+            cellChnToday.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))
         }
 
         val detector = GestureDetector(this, object : SimpleOnGestureListener() {
