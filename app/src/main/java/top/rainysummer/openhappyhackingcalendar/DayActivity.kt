@@ -30,7 +30,13 @@ class DayActivity : AppCompatActivity() {
         val month = (c.get(Calendar.MONTH) + 1).toString()
         val date = c.get(Calendar.DATE).toString()
         val dateText = findViewById<TextView>(R.id.date)
-        dateText.text = year + "-" + month + "-" + date
+        dateText.text = buildString {
+            append(year)
+            append("-")
+            append(month)
+            append("-")
+            append(date)
+        }
 
         val weekdayName = arrayOf(
                 "Sunday · 周日",
@@ -81,7 +87,11 @@ class DayActivity : AppCompatActivity() {
                 val weekdayText1 = findViewById<TextView>(id)
                 val month1 = (monthNum + 1).toString()
                 val date1 = cc.get(Calendar.DATE).toString()
-                weekdayText1.text = month1 + "-" + date1
+                weekdayText1.text = buildString {
+                    append(month1)
+                    append("-")
+                    append(date1)
+                }
                 weekdayText1.width = 130
                 if (dateNum == dateToday) {
                     weekdayText1.setTextColor(resources.getColor(android.R.color.holo_blue_dark, theme))

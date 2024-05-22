@@ -41,18 +41,21 @@ class MonthActivity : AppCompatActivity() {
         textMonth.text = month
 
         val lunar = LunarCalendar.obtainCalendar(yearNum, monthNum + 1, dateNum)
-        val td_num: Int
-        if (lunar.lunarMonth == "腊") {
-            td_num = yearNum - 4
+        val td_num: Int = if (lunar.lunarMonth == "腊") {
+            yearNum - 4
         } else {
-            td_num = yearNum - 3
+            yearNum - 3
         }
         val tian = arrayOf("癸", "甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬")
         val di = arrayOf("亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌")
-        val LunarYear = tian[td_num % 10] + di[td_num % 12] + "年"
+        val lunarYear = tian[td_num % 10] + di[td_num % 12] + "年"
 
         val textYear = findViewById<TextView>(R.id.textYear)
-        textYear.text = yearNum.toString() + " · " + LunarYear
+        textYear.text = buildString {
+            append(yearNum.toString())
+            append(" · ")
+            append(lunarYear)
+        }
 
 
         val startOfMonth = Calendar.getInstance()

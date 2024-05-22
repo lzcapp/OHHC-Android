@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenHappyHackingCalendar">
         <activity android:name=".DayActivity" />
-        <activity android:name=".MonthActivity">
+        <activity android:name=".MonthActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
